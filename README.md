@@ -16,6 +16,20 @@ v += r
 [5] + [1] = [6]
 [4] + [0] = [4]
 
+Directional (x,y):
+                            UP (0,-y): Vector2(0,-1)
+LEFT (-x,0): Vector2(-1,0)                              RIGHT (x,0): Vector2(1,0)
+                            DOWN (0,y): Vector2(0,1)
+
+Horizontal & Verticals
+If previous_block and next_block same y -> horizontal
+if previous_block and next_block same x -> vertical
+
+Corners
+Check the x & y for previous and next block in both directions
+
+
+
 # Moving the snake
 The head is moved to a new block
 The block before the head gets the position where the head used to be.
