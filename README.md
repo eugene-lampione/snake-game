@@ -26,3 +26,8 @@ Each block is moved to the position of the block that used to be before it
 |    [pos1,pos2,pos3][direction]
 |------- new head position
 image.png
+
+# Drawing the snake body with images
+We cycle through every block in snake.body
+We check the block as well as the previous and next block
+Depending on how they are laid we can display different graphics
